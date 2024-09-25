@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+.header-top {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #121212;
+}
+ul.nav-top-left {
+    list-style-type: none;
+}
+ul.nav-top-left li {
+    float: left;
+    overflow: hidden;
+}
+ul.nav-top-left li a {
+    display: block;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    padding: 12px 25px;
+}
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+ul.nav-top-right {
+    list-style-type: none;
+}
+ul.nav-top-right li {
+    float: left;
+    overflow: hidden;
+}
+ul.nav-top-right li a {
+    display: block;
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 12px 25px;
+}
+.header-medium {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+    background-color: #E12518;
+}
+.img-container {
+    width: 200px;
+}
+ul.navbar {
+    list-style-type: none;
+}
+ul.navbar li {
+    float: left;
+    overflow: hidden;
+}
+ul.navbar li a {
+    display: block;
+    color: white;
+    padding: 35px 12px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.btn-inscription {
+    background-color: #545454;
+    padding: 12px 22px !important;
+    border-radius: 35px;
+    margin-top: 22px;
+    text-transform: uppercase;
+}
+.btn-inscription:hover {
+    background-color: black;
+}
